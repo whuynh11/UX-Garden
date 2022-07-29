@@ -20,7 +20,7 @@ p-lg, .paragraph-lg {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #303030;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
@@ -110,6 +110,14 @@ h6, .h6 {
 }
 .btn-transparent:active, .btn-transparent:hover {
   color: #42676a;
+}
+
+.btn-link {
+  color: #303030;
+  font-family: "Roboto", sans-serif;
+}
+.btn-link:hover {
+  color: #53777a;
 }
 
 body {
@@ -208,7 +216,7 @@ a:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: #000;
+  background: #303030;
   opacity: 0.5;
 }
 
@@ -237,7 +245,7 @@ a:hover {
 }
 
 .text-dark {
-  color: #000 !important;
+  color: #303030 !important;
 }
 
 .text-light {
@@ -378,9 +386,14 @@ textarea.form-control {
 }
 .card-header {
   border: 0;
+  border-bottom: solid 2px #DADDE5;
 }
 .card-footer {
   border: 0;
+}
+
+.card-body {
+  padding: 3.25rem;
 }
 
 /* /card */
@@ -389,7 +402,7 @@ textarea.form-control {
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: #42676a;
+  background-color: #8eacaf;
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -405,7 +418,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   padding: 15px;
 }
@@ -713,7 +726,7 @@ blockquote {
   font-family: "Playfair Display", serif;
   font-size: 22px;
   font-weight: normal;
-  color: #000;
+  color: #303030;
   display: inherit;
   line-height: 1.5;
 }
@@ -828,4 +841,3 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
-/*# sourceMappingURL=style.css.map */
